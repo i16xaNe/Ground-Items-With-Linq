@@ -1,0 +1,85 @@
+//----------------------------------------------
+// Item Mods
+//----------------------------------------------
+
+ItemStats[GameStat.BaseMovementVelocityPct]>=10 // Movement Speed>=10% (Pct=%)
+
+ItemStats[GameStat.BaseMaximumLife]>=50 // To maximum Life>=50
+
+ItemStats[GameStat.BaseFireDamageResistancePct]>=30
+
+ItemStats[GameStat.BaseColdDamageResistancePct]>=30
+
+ItemStats[GameStat.BaseLightningDamageResistancePct]>=30
+
+ItemStats[GameStat.BaseChaosDamageResistancePct]>=30
+
+ItemStats[GameStat.AdditionalStrength]>=30
+
+ItemStats[GameStat.AdditionalDexterity]>=30
+
+ItemStats[GameStat.AdditionalIntelligence]>=30
+
+ItemStats[GameStat.BaseSpellSuppressionChancePct]>=15
+
+ItemStats[GameStat.LocalMinimumAddedColdDamage]>=15
+
+ItemStats[GameStat.AttackMinimumAddedColdDamage]>=15
+
+ItemStats[GameStat.LocalMinimumAddedLightningDamage]>=15
+
+ItemStats[GameStat.AttackMinimumAddedLightningDamage]>=15
+
+ItemStats[GameStat.LocalMinimumAddedFireDamage]>=15
+
+ItemStats[GameStat.AttackMinimumAddedFireDamage]>=15
+
+ItemStats[GameStat.CriticalStrikeChancePct]>=20
+
+ItemStats[GameStat.LocalAttackSpeedPct]>=15
+
+
+
+//----------------------------------------------
+// Base
+//----------------------------------------------
+   
+HasTag("Dagger") // Item type Dagger
+
+HasTag("Claw")
+
+//----------------------------------------------
+// Name Contains
+//----------------------------------------------
+
+BaseName.Contains("Invitation")
+
+BaseName.Contains("Cortex")
+
+//----------------------------------------------
+// Area Contains
+//----------------------------------------------
+
+ModsInfo.ItemMods.Any(Name == "MapAreaContainsEssences") // Map has essence implicit
+
+//----------------------------------------------
+// 6 Socket + 4-6 Links
+//----------------------------------------------
+
+SocketInfo.SocketNumber == 6
+
+SocketInfo.LargestLinkSize >= 4
+
+//----------------------------------------------
+// Custon Socket Color
+//----------------------------------------------
+
+
+
+
+
+
+
+
+
+
